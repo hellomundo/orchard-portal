@@ -1,0 +1,108 @@
+{
+    "schools": [{
+        "id": "1",
+        "name": "Orchard School"
+    }],
+    "families": [{
+        "id": "1",
+        "name": "Ortega-Files",
+        "balance": "115.3",
+        "hours": "43",
+        "activities": [{
+            "name": "June",
+            "id": "1",
+            "date": "2018-11-17",
+            "quantity": "1",
+            "act": "lunch",
+            "amount": "4.5"
+        }, {
+            "name": "June",
+            "id": "2",
+            "date": "2018-11-16",
+            "quantity": "1",
+            "act": "aftercare",
+            "amount": "7.5"
+        }, {
+            "name": "June",
+            "id": "3",
+            "date": "2018-11-15",
+            "quantity": "1.5",
+            "act": "aftercare",
+            "amount": "10.25"
+        }]
+    },{
+        "id": "2",
+        "name": "Clements",
+        "balance": "65.0",
+        "hours": "24.5"
+    }],
+    "users": [{
+        "id": 1,
+        "first_name": "Edmundo",
+        "last_name": "Ortega",
+        "email": "ed.ortega@gmail.com",
+        "hashed_password": "dhowhiwohiowwjo",
+        "family_id": "1",
+        "accepted": true
+    }, {
+        "id": 2,
+        "first_name": "Kari",
+        "last_name": "Files",
+        "email": "kari.files@gmail.com",
+        "hashed_password": "dhowhiwohiowwjo",
+        "family_id": "1",
+        "accepted": false
+    }, {
+        "id": 3,
+        "first_name": "Jess",
+        "last_name": "Clements",
+        "email": "jclements01@gmail.com",
+        "hashed_password": "dhowhiwohiowwjo",
+        "family_id": "2",
+        "accepted": true
+    }],
+    "invitations": [{
+        "id": "1",
+        "user_id": "1",
+        "hashed_invitation": "s9sj202jud802902jdhy082u9",
+        "invite_expires_on": "11/30/2018",
+        "invited_on": "11/01/2018"
+
+    }],
+    "students": [{
+        "id": 1,
+        "first_name": "June",
+        "last_name": "Ortega",
+        "family_id": "1",
+        "class_id": "4"
+    },
+    {   
+        "id": 2,
+        "first_name": "Jaxson",
+        "last_name": "Clements",
+        "family_id": "2",
+        "class_id": "4"
+    }, {
+        "id": 3,
+        "first_name": "Sydney",
+        "last_name": "Clements",
+        "family_id": "2",
+        "class_id": "1"
+    }],
+    "classes": [{
+        "id": "1",
+        "name": "Kindergarten"
+    }, {
+        "id": "2",
+        "name": "First"
+    }, {
+        "id": "3",
+        "name": "Second"
+    }, {
+        "id": "4",
+        "name": "Third"
+    }, {
+        "id": "5",
+        "name": "Fourth-Fifth-Sixth"
+    }]
+}
